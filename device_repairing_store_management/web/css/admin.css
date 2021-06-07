@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Sep, 2018, 9:45:23 PM
+    Author     : Mandar
+*/
+
+html,body,.container {
+    height:100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+.col-md-5 {
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+.container {
+    height: 100%;
+}
+
+.row {
+    height: 100vh;
+}
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+.bgimage{
+    background-size: cover;
+    background-position: center;
+    background: url(https://images.unsplash.com/photo-1517754461499-9930e2b54957?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e5cd00f78bb6a4c5f13a23ef1f0d257&auto=format&fit=crop&w=634&q=80);
+    width: 90%;
+    height: 90%;
+}
+
+.all-center{
+
+    padding-top: 25%;
+}
+.split1 {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+h3 {
+     font-family: 'Charmonman', cursive;
+}
+.left1 {
+    left: 0;
+    background-color: #111;
+}
+
+.right1 {
+    right: 0;
+    background-color: red;
+}
+
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hei1 {
+    height: 100vh;
+}
+
+/* .centered img {
+    width: 150px;
+    border-radius: 50%;
+}*/
+
+hr.style18 { 
+    height: 30px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+  } 
+hr.style18:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
+  
